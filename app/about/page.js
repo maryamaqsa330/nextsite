@@ -67,7 +67,7 @@ export default function AboutPage() {
             <Typography className="mission-title">Our Mission</Typography>
 
             <Typography className="mission-text">
-              Our mission is to improve the health and well-being of our
+              Our mission is to improve the health and well-being of our 
               patients by providing high-quality, patient-centered care in a
               safe and comfortable environment.
             </Typography>
