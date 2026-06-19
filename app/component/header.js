@@ -264,7 +264,7 @@ fontSize: "35px",
 
 
  {/* =================================== service ================================== */}
-  <li>
+  {/* <li>
   <Box
     sx={{
       display: "flex",
@@ -318,57 +318,70 @@ fontSize: "35px",
       ))}
     </Box>
   )}
-</li>
-{/* ======================== right wala ============================ */}
-{/* <Box
-  onClick={() => setServiceOpen(false)}
-  sx={{
-    position: "fixed",
-    inset: 0,
-    visibility: open && serviceOpen ? "visible" : "hidden",
-    background: "rgba(0,0,0,0.15)",
-    zIndex: 1002,
-  }}
+</li> */}
+<li
+  onMouseEnter={() => setServiceOpen(true)}
+  onMouseLeave={() => setServiceOpen(false)}
+  style={{ height: "100px", display: "flex", alignItems: "center" }}
 >
-  <Box
-    onClick={(e) => e.stopPropagation()}
-    sx={{
-      position: "absolute",
-      top: "120px",
-      left: { xs: "300px", sm: "500px" },
-      width: { xs: "260px", sm: "320px" },
-      background: "#fff",
-      borderRadius: "16px",
-      p: "20px",
-      boxShadow: "0 15px 40px rgba(0,0,0,0.2)",
-      transform: serviceOpen ? "translateX(0)" : "translateX(-30px)",
-      opacity: serviceOpen ? 1 : 0,
-      transition: "0.3s ease",
-    }}
-  >
-    {serviceLinks.map((item) => (
-      <Link
-        key={item.title}
-        href={item.link}
-        onClick={() => {
-          setOpen(false);
-          setServiceOpen(false);
-        }}
-        style={{
-          display: "block",
-          padding: "12px 10px",
+  <Box sx={{ position: "relative" }}>
+    <Box sx={{ display: "flex", alignItems: "center", gap: "5px" }}>
+      <Link href="/services">
+        Services
+      </Link>
+
+      <Box
+        sx={{
           color: "#061b49",
-          fontSize: "18px",
-          fontWeight: "600",
-          textDecoration: "none",
+          fontSize: "14px",
+          fontWeight: 700,
+          cursor: "pointer",
+          lineHeight: 1,
+          px: "4px",
         }}
       >
-        {item.title}
-      </Link>
-    ))}
+        ▾
+      </Box>
+    </Box>
+
+    {serviceOpen && (
+      <Box
+        sx={{
+          position: "absolute",
+          top: "38px",
+          left: 0,
+          width: "250px",
+          background: "#fff",
+          borderRadius: "0 0 12px 12px",
+          boxShadow: "0 15px 40px rgba(0,0,0,0.12)",
+          padding: "10px 0",
+          zIndex: 9999,
+        }}
+      >
+        {serviceLinks.map((item) => (
+          <Link
+            key={item.title}
+            href={item.link}
+            onClick={() => setServiceOpen(false)}
+            style={{
+              display: "block",
+              padding: "12px 18px",
+              color: "#061b49",
+              fontSize: "14px",
+              fontWeight: 600,
+              textDecoration: "none",
+            }}
+          >
+            {item.title}
+          </Link>
+        ))}
+      </Box>
+    )}
   </Box>
-</Box>
-</li>  */}
+</li>
+
+
+
 {/* ======================= other pages =========================== */}
 <li>
   <Link href="/doctor" onClick={() => setOpen(false)}>Doctors</Link>

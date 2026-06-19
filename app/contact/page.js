@@ -6,7 +6,7 @@ export default function ContactPage() {
    <main>
     
 {/*  =================================== banner section ==================================== */}
-      <section className="inner-banner">
+      {/* <section className="inner-banner">
         <div className="inner-banner-content">
           <div className="inner-banner-text">
             <h1>Contact Us</h1>
@@ -22,7 +22,22 @@ export default function ContactPage() {
             <img className="image" src="/upload/doctor team2.png" alt="Contact Us" />
           </div>
         </div>
-      </section>
+      </section> */}
+      <section className="contact-hero-banner">
+  <div className="contact-hero-content">
+    <div className="contact-hero-text">
+      <h1>Contact Us</h1>
+
+      <div className="contact-hero-breadcrumb">
+        <Link href="/">Home</Link>
+        <span>›</span>
+        <span>Contact Us</span>
+      </div>
+    </div>
+
+    <div className="contact-hero-mobile-img"></div>
+  </div>
+</section>
  {/* ================================= second section ======================================= */}
 <section className="contact-section">
   <div className="contact-wrap">

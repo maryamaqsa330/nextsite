@@ -82,7 +82,7 @@ export default function () {
   return (
     <main>
       {/* ================================== banner section ============================ */}
-<Box className="doctors-banner">
+{/* <Box className="doctors-banner">
       <Box className="doctors-banner-content">
         <Typography className="doctor-breadcrumb">Home &gt; Doctors</Typography>
 
@@ -98,7 +98,28 @@ export default function () {
       <Box className="doctors-banner-image-box">
         <img src="/upload/55.png" alt="Specialist Doctors" className="doctors-banner-img" />
       </Box>
-     </Box>
+     </Box> */}
+    {/* ============================== 2 =========================== */}
+      <Box className="doctor-detail-banner">
+  <Box className="doctor-detail-content">
+    <Typography className="doctor-detail-label">
+      OUR DOCTORS
+    </Typography>
+
+    <Typography component="h1" className="doctor-detail-title">
+      Meet Our <br /> Specialist Doctors
+    </Typography>
+
+    <Typography className="doctor-detail-text">
+      Our experienced and compassionate doctors are dedicated to providing
+      the highest quality care across a wide range of specialties.
+    </Typography>
+  </Box>
+
+  <Box className="doctor-detail-mobile-img" />
+</Box> 
+{/* ========================== 3 ========================== */}
+
 
       {/* ============================= second section ====================================== */}
 

@@ -23,7 +23,7 @@ export default function () {
   return (
     <main>
       {/* ===================================== banner ============================================= */}
-    <Box className="why-banner">
+    {/* <Box className="why-banner">
       
       <Typography component="h1" className="why-banner-title">
         Why Choose Us
@@ -33,7 +33,21 @@ export default function () {
         We are committed to providing exceptional healthcare services with
         advanced technology and compassionate care.
       </Typography>
-    </Box>
+    </Box> */}
+    <Box className="why-hero-banner">
+  <Box className="why-hero-content">
+    <Typography component="h1" className="why-hero-title">
+      Why Choose Us
+    </Typography>
+
+    <Typography className="why-hero-text">
+      We are committed to providing exceptional healthcare services with
+      advanced technology and compassionate care.
+    </Typography>
+  </Box>
+
+  <Box className="why-hero-mobile-img" />
+</Box>
     {/* =============================== second section =================================================== */}
 <Box className="why-choose-section">
       

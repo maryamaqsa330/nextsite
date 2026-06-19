@@ -24,33 +24,59 @@ export default function GeneralConsultationPage() {
 
 /* ================= Banner Section ================= */
 
+// function GeneralConsultationBanner() {
+//   return (
+//     <Box className="gc-banner-section">
+//       <Box className="gc-banner-container">
+//         <Box className="gc-banner-content">
+//           <Typography component="h1" className="gc-banner-title">
+//             General Consultation
+//           </Typography>
+
+//           <Typography className="gc-banner-text">
+//             Our General Consultation services provide you with a comprehensive
+//             evaluation of your health. Our experienced doctors are here to
+//             listen, diagnose, and guide you towards better health.
+//           </Typography>
+
+//           <Button
+//             className="gc-banner-btn"
+//             endIcon={<ArrowForwardIcon className="gc-banner-btn-icon" />}
+//           >
+//             Book Appointment
+//           </Button>
+//         </Box>
+
+//         <Box className="gc-banner-image">
+//           <img src="/upload/56.png" alt="General Consultation" />
+//         </Box>
+//       </Box>
+//     </Box>
+//   );
+// }
 function GeneralConsultationBanner() {
   return (
-    <Box className="gc-banner-section">
-      <Box className="gc-banner-container">
-        <Box className="gc-banner-content">
-          <Typography component="h1" className="gc-banner-title">
-            General Consultation
-          </Typography>
+    <Box className="gc-new-banner-section">
+      <Box className="gc-new-banner-content">
+        <Typography component="h1" className="gc-new-banner-title">
+          General Consultation
+        </Typography>
 
-          <Typography className="gc-banner-text">
-            Our General Consultation services provide you with a comprehensive
-            evaluation of your health. Our experienced doctors are here to
-            listen, diagnose, and guide you towards better health.
-          </Typography>
+        <Typography className="gc-new-banner-text">
+          Our General Consultation services provide you with a comprehensive
+          evaluation of your health. Our experienced doctors are here to listen,
+          diagnose, and guide you towards better health.
+        </Typography>
 
-          <Button
-            className="gc-banner-btn"
-            endIcon={<ArrowForwardIcon className="gc-banner-btn-icon" />}
-          >
-            Book Appointment
-          </Button>
-        </Box>
-
-        <Box className="gc-banner-image">
-          <img src="/upload/56.png" alt="General Consultation" />
-        </Box>
+        <Button
+          className="gc-new-banner-btn"
+          endIcon={<ArrowForwardIcon className="gc-new-banner-btn-icon" />}
+        >
+          Book Appointment
+        </Button>
       </Box>
+
+      <Box className="gc-new-mobile-img" />
     </Box>
   );
 }
