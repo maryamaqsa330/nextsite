@@ -294,7 +294,7 @@ export default function ServiceBanner() {
 
           <Typography className="why-choose-short-text">
             We are committed to providing high-quality healthcare with advanced
-            technology, experienced doctors, and a patient-first approach. Your
+            technology, experienced doctors, and a patient-first approaches. Your
             health and well-being are our top priority.
           </Typography>
 
