@@ -92,7 +92,7 @@ export default function () {
 
         <Typography className="doctors-banner-text">
           Our experienced and compassionate doctors are dedicated to providing
-          the highest quality care across a wide range of specialties.
+          the highest quality care across a wide range of specialties hhhhhhhhhhhhhhh.
         </Typography>
             </Box>
       <Box className="doctors-banner-image-box">
