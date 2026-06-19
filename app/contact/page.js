@@ -50,7 +50,7 @@ export default function ContactPage() {
         <div className="contact-icon">📍</div>
         <div>
           <h4>Location</h4>
-          <p>123, Health Street, Islamabad, Pakistan</p>
+          <p>123, Health Street, Islamabad, Pakistan...</p>
         </div>
       </div>
 

@@ -56,7 +56,7 @@ export default function () {
 
                 <Typography className="why-card-text">
                   Our team provides professional healthcare support with care,
-                  safety, and personalized attention.
+                  safety, and personalized attentions.
                 </Typography>
 
                 <Box className="why-card-line" />

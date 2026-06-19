@@ -82,8 +82,6 @@ export default function Home() {
     </section> 
 
     {/* ========================== third section ========================= */}
-   
-
  <section className="medical-services-section">
   <Box className="services-container">
     
