@@ -58,7 +58,7 @@ export default function ContactPage() {
         <div className="contact-icon">⏱</div>
         <div>
           <h4>Working Hours</h4>
-          <p>Mon - Sat: 9:00 AM - 8:00 PM<br />Sunday: Closed</p>
+          <p>Mon - Sat: 9:00 AM - 8:00 PM<br />Sunday: Closed..</p>
         </div>
       </div>
     </div>
