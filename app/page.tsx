@@ -3,7 +3,33 @@
  import Link from "next/link";
 import "./style/style.css";
 import PlayArrowIcon from "@mui/icons-material/PlayArrow";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import PsychologyIcon from "@mui/icons-material/Psychology";
+import VaccinesIcon from "@mui/icons-material/Vaccines";
+import AirIcon from "@mui/icons-material/Air";
 
+const services = [
+  {
+    icon: <FavoriteBorderIcon className="service-icon" />,
+    title: "Cardiology",
+    text: "Heart care and advanced treatment for a healthy life.",
+  },
+  {
+    icon: <PsychologyIcon className="service-icon" />,
+    title: "Neurology",
+    text: "Expert care for brain and nervous system disorders.",
+  },
+  {
+    icon: <VaccinesIcon className="service-icon" />,
+    title: "Vaccination",
+    text: "We provide safe and effective vaccines for children.",
+  },
+  {
+    icon: <AirIcon className="service-icon" />,
+    title: "Pulmonology",
+    text: "pulmonology provide safe and effective vaccines for children.",
+  },
+];
 export default function Home() {
   return (
     <main>
@@ -82,61 +108,62 @@ export default function Home() {
     </section> 
 
     {/* ========================== third section ========================= */}
- <section className="medical-services-section">
-  <Box className="services-container">
-    
-    <Box className="services-heading">
-      <Typography className="services-title">
+<section className="medical-services-section">
+  <Box className="medical-services-container">
+    <Box className="medical-services-header">
+      <Typography className="medical-services-title">
         Our Medical Services
       </Typography>
-      <Typography className="services-subtitle">
+
+      <Typography className="medical-services-subtitle">
         We offer a wide range of medical services for you and your family's health.
       </Typography>
     </Box>
 
-    <Box className="services-grid">
-      <Box className="service-card">
-        <div className="service-icon">♡</div>
-        <Typography className="service-title">Cardiology</Typography>
-        <Typography className="service-text">
-          Heart care and advanced treatment for a healthy life.
-        </Typography>
-      </Box>
+    <Box className="medical-services-grid">
+      {services.map((item) => (
+        <Box className="medical-service-card" key={item.title}>
+          {item.icon}
 
-      <Box className="service-card">
-        <div className="service-icon">🧠</div>
-        <Typography className="service-title">Neurology</Typography>
-        <Typography className="service-text">
-          Expert care for brain and nervous system disorders.
-        </Typography>
-      </Box>
+          <Typography className="medical-service-title">
+            {item.title}
+          </Typography>
 
-      <Box className="service-card">
-         <div className="service-icon">💉</div> 
-        <Typography className="service-title">Vaccination</Typography>
-        <Typography className="service-text">
-          We provide safe and effective vaccines for children
-        </Typography>
-      </Box>
-
-      <Box className="service-card">
-        <div className="service-icon">🌬️</div>
-        <Typography className="service-title">Pulmonology</Typography>
-        <Typography className="service-text">
-          Our pulmonology services help diagnose and treat asthma, allergies.
-        </Typography>
-      </Box>
+          <Typography className="medical-service-text">
+            {item.text}
+          </Typography>
+        </Box>
+      ))}
     </Box>
 
-    <Box className="services-btn-wrap">
-       <Link href="/services" style={{ textDecoration: "none" }}>
-      <Button className="primary-btn">View All Services</Button>
+    <Box className="medical-services-btn-wrap">
+      <Link href="/services" style={{ textDecoration: "none" }}>
+        <Button className="medical-services-btn">
+          View All Services
+        </Button>
       </Link>
     </Box>
-
   </Box>
 </section>
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     </main>
   );
 } 
