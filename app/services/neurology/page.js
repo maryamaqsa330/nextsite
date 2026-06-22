@@ -14,7 +14,7 @@ import "../../style/services-pages.css";
 export default function NeurologyPage() {
   return (
     <>
-      <NeurologyBanner />
+       <NeurologyBanner /> 
       <AboutNeurology />
       <NeurologyServices />
       <WhyChooseNeurology />
@@ -25,42 +25,45 @@ export default function NeurologyPage() {
 
 /* ================= Banner Section ================= */
 
-function NeurologyBanner() {
-  return (
-    <Box className="neuro-banner-section">
-      <Box className="neuro-banner-container">
+ function NeurologyBanner() {
+   return (
+     <Box className="neuro-banner-section">
+       <Box className="neuro-banner-container">
         <Box className="neuro-banner-content">
-          <Typography className="neuro-breadcrumb">
-            Home &gt; Services &gt; <span>Neurology</span>
-          </Typography>
+           <Typography className="neuro-breadcrumb">
+             Home &gt; Services &gt; <span>Neurology</span>
+           </Typography>
 
-          <Typography component="h1" className="neuro-banner-title">
-            Neurology
-          </Typography>
+           <Typography component="h1" className="neuro-banner-title">
+           Neurology
+         </Typography>
 
-          <Box className="neuro-title-line" />
+           <Box className="neuro-title-line" />
 
           <Typography className="neuro-banner-text">
-            Our Neurology services focus on the diagnosis, treatment, and
-            management of disorders of the brain, spine, and nervous system.
-            We are dedicated to restoring function and improving quality of life.
+           Our Neurology services focus on the diagnosis, treatment, and
+             management of disorders of the brain, spine, and nervous system.
+             We are dedicated to restoring function and improving quality of life.
           </Typography>
 
           <Button
-            className="neuro-btn"
+             className="neuro-btn"
             endIcon={<ArrowForwardIcon />}
-          >
+           >
             Book Appointment
           </Button>
         </Box>
 
-         <Box className="neuro-banner-image">
+          {/* <Box className="neuro-banner-image">
           <img src="/upload/67.png" alt="Neurology" />
-        </Box> 
-      </Box>
-    </Box>
-  );
-}
+         </Box>  */}
+         <Box className="neuro-mobile-image">
+/ <img src="/upload/brain3.png" alt="Neurology" />
+ </Box>
+       </Box>
+     </Box>
+    );
+  }
 
 /* ================= Second Section About Neurology ================= */
 

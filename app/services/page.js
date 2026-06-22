@@ -21,49 +21,49 @@ const services = [
     title: " General Consultation",
     image: "/upload/1.png",
     text: "Comprehensive health checkups, expert diagnosis, and personalized medical guidance for patients of all. ",
-    link: "/#",
+    link: "/services/general-consultation",
   },
   {
     title: "Cardiology",
     image: "/upload/2.png",
     text: "Advanced heart care services including diagnosis, prevention, and treatment for cardiovascular.",
-    link: "/#",
+   link: "/services/cardiology",
   },
   {
     title: " Pulmonology",
     image: "/upload/3.png",
     text: "Specialized care for asthma, lung diseases, breathing disorders, and respiratory health management.",
-    link: "/#",
+   link: "/services/pulmonology",
   },
   {
     title: "Neurology",
     image: "/upload/4.png",
-    text: "Expert diagnosis and treatment for brain, spine, nerve, headache, and neurological disorders.",
-    link: "/#",
+    text: "Expert diagnosis and treatment for brain, spine, nerve, headache, and neurological disorders treatment.",
+   link: "/services/neurology",
   },
   {
     title: " Laboratory Services",
     image: "/upload/5.png",
     text: "Accurate laboratory testing with modern equipment for reliable diagnosis and effective treatment.",
-    link: "/#",
+  link: "/services/laboratory-services",
   },
   {
     title: " Radiology",
     image: "/upload/6.png",
     text: "High-quality imaging services including X-rays, ultrasound, CT scans, and diagnostic evaluations.",
-    link: "/#",
+   link: "/services/radiology",
   },
   {
     title: " Vaccination",
     image: "/upload/7.png",
     text: "Safe and effective immunization services for children and adults to prevent infectious diseases.",
-    link: "/#",
+  link: "/services/vaccination",
   },
   {
     title: " Emergency Care",
     image: "/upload/8.png",
     text: "24/7 emergency medical services with rapid response and immediate treatment for critical conditions.",
-    link: "/#",
+  link: "/services/emergency-care",
   },
 ];
 // =================================== why choose us =============================
@@ -116,7 +116,7 @@ export default function ServiceBanner() {
      </Box>
      </Box>
     {/* // ============================= second section ====================================== */}
- <Box className="who-section">
+  <Box className="who-section">
  
    
       <Box className="who-image-box">
@@ -179,7 +179,7 @@ export default function ServiceBanner() {
           </Box>
         </Box>
       </Box>
-    </Box>
+    </Box> 
 {/* ==================================== third section ========================================== */}
 
 <Box className="services-grid-section">
@@ -219,62 +219,6 @@ export default function ServiceBanner() {
     </Box>
 
 {/* ==================================== fourth section ===================================== */}
-{/* <Box className="why-mini-section">
-      
-      <Box className="why-mini-container">
-        <Box className="why-mini-box">
-          <Box className="why-mini-heading">
-            <Typography className="why-mini-subtitle">WHY CHOOSE US</Typography>
-
-            <Typography className="why-mini-title">
-              Your Health, Our Priority
-            </Typography>
-
-            <Box className="why-mini-line" />
-
-            <Typography className="why-mini-desc">
-              We are committed to providing exceptional healthcare services with
-              compassion, expertise, and advanced technology.
-            </Typography>
-          </Box>
-
-         <Box className="why-mini-grid">
-            {items.map((item, index) => (
-              // <Grid size={{ xs: 12, sm: 6, md: 3 }} key={index}>
-              <Box key={index}>
-                <Box className="why-mini-card">
-                  <Box className="why-mini-icon">{item.icon}</Box>
-
-                  <Typography className="why-mini-card-title">
-                    {item.title}
-                  </Typography>
-
-                  <Typography className="why-mini-card-text">
-                    {item.text}
-                  </Typography>
-                </Box>
-              
-              </Box>
-            ))}
-         
-          </Box>
-
-          <Box className="why-mini-divider" />
-
-          <Box className="why-mini-btn-wrap">
-            <Link href="/why-choose-us" style={{ textDecoration: "none" }}>
-            <Button
-              className="primary-btn"
-              endIcon={<ArrowForwardIcon />}
-              onClick={() => router.push("/why-choose-us")}
-            >
-              Discover Why Choose Us
-            </Button>
-            </Link>
-          </Box>
-        </Box>
-        </Box>
-    </Box> */}
     <Box className="why-choose-short-section">
       <Box className="why-choose-short-container">
 

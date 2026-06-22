@@ -54,6 +54,9 @@ function RadiologyBanner() {
             Book Appointment
           </Button>
         </Box>
+        <Box className="radio-mobile-image">
+  <img src="/upload/radiology1.png" alt="Radiology Services" />
+</Box>
       </Box>
     </Box>
   );

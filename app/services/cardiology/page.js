@@ -15,21 +15,19 @@ import HeadsetMicOutlinedIcon from "@mui/icons-material/HeadsetMicOutlined";
 import LocalPhoneOutlinedIcon from "@mui/icons-material/LocalPhoneOutlined";
 import MailOutlineOutlinedIcon from "@mui/icons-material/MailOutlineOutlined";
 import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
-
-
-
-
-
 import "../../style/services-pages.css";
 
+
+
+// ===================================== banner section =========================================
 const CardiologyBanner = () => {
   return (
     <>
-    <Box className="cardio-banner"> 
-      <Box className="cardio-banner-wrapper">
+     {/* <Box className="cardio-banner"> 
+      <Box className="cardio-banner-wrapper"> */}
 
         {/* Left Side */}
-
+{/* 
         <Box className="cardio-content">
 
           <Typography className="cardio-breadcrumb">
@@ -53,11 +51,11 @@ const CardiologyBanner = () => {
             Book Appointment
           </Button>
 
-        </Box>
+        </Box> */}
 
         {/* Right Side */}
 
-        <Box className="cardio-image">
+        {/* <Box className="cardio-image">
           <img
             src="/upload/57.png"
             alt="Cardiology"
@@ -65,12 +63,71 @@ const CardiologyBanner = () => {
         </Box>
 
       </Box>
+    </Box>  */}
+
+
+
+
+
+    <Box className="cardio-banner">
+      <Box className="cardio-banner-wrapper">
+
+        <Box className="cardio-content">
+          <Typography className="cardio-breadcrumb">
+            Home &gt; Services &gt; <span>Cardiology</span>
+          </Typography>
+
+          <Typography className="cardio-title">Cardiology</Typography>
+
+          <Typography className="cardio-description">
+            Our Cardiology services focus on the diagnosis,
+            treatment and prevention of heart and cardiovascular
+            conditions. Your heart health is our priority.
+          </Typography>
+
+          <Button className="cardio-btn" endIcon={<ArrowForwardIcon />}>
+            Book Appointment
+          </Button>
+        </Box>
+
+        <Box className="cardio-mobile-image">
+          <img src="/upload/heart3.png" alt="Cardiology" />
+        </Box>
+
+      </Box>
     </Box>
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 {/* // ==================================== second section ================================= */}
 <Box className="cardio-about-section">
 
         <Box className="cardio-about-image">
-          <img src="/upload/58.png" alt="Cardiology" />
+          <img src="/upload/heart2.png" alt="Cardiology" />
         </Box>
 
         <Box className="cardio-about-content">

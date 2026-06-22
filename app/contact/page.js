@@ -99,61 +99,6 @@ export default function ContactPage() {
     </div>
   </div>
 </section>
-{/* ===================================== third section ==================================== */}
-<section className="contact-page-section">
-        <div className="contact-container">
-          <div className="contact-box">
-            {/* Left Side */}
-            <div className="contact-info-side">
-              <div className="contact-info-item">
-                <div className="contact-icon">📍</div>
-                <div>
-                  <h4>Location</h4>
-                  <p>123, Health Street, Islamabad, Pakistan</p>
-                </div>
-              </div>
-
-              <div className="contact-info-item">
-                <div className="contact-icon">⏰</div>
-                <div>
-                  <h4>Working Hours</h4>
-                  <p>Mon - Sat: 9:00 AM - 8:00 PM</p>
-                  <p>Sunday: Closed</p>
-                </div>
-              </div>
-            </div>
-
-            {/* Right Side */}
-            <div className="contact-form-side">
-              <form>
-                <div className="form-group">
-                  <label>Name</label>
-                  <input type="text" placeholder="Enter your name" />
-                </div>
-
-                <div className="form-group">
-                  <label>Email</label>
-                  <input type="email" placeholder="Enter your email" />
-                </div>
-
-                <div className="form-group">
-                  <label>Phone</label>
-                  <input type="text" placeholder="Enter your phone number" />
-                </div>
-
-                <div className="form-group">
-                  <label>Message</label>
-                  <textarea placeholder="Write your message..."></textarea>
-                </div>
-
-                <button type="submit" className="contact-btn">
-                  Send Message ➤
-                </button>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Map Section */}
       <section className="contact-map-wrapper">

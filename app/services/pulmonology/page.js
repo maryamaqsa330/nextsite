@@ -24,7 +24,7 @@ const PulmonologyPage = () => {
   return (
     <>
       {/* ================= Banner Section ================= */}
-      <Box className="pulmo-banner">
+      {/* <Box className="pulmo-banner">
         <Box className="pulmo-banner-container">
           <Box className="pulmo-banner-content">
             <Typography className="pulmo-breadcrumb">
@@ -48,7 +48,44 @@ const PulmonologyPage = () => {
             <img src="/upload/61.png" alt="Pulmonology" />
           </Box>
         </Box>
-      </Box>
+      </Box> */}
+
+
+<Box className="pulmo-banner">
+  <Box className="pulmo-banner-container">
+    <Box className="pulmo-banner-content">
+      <Typography className="pulmo-breadcrumb">
+        Home &gt; Services &gt; <span>Pulmonology</span>
+      </Typography>
+
+      <Typography className="pulmo-banner-title">Pulmonology</Typography>
+
+      <Typography className="pulmo-banner-text">
+        Our Pulmonology services focus on the diagnosis, treatment, and
+        management of respiratory conditions. We are committed to helping
+        you breathe better and live healthier.
+      </Typography>
+
+      <Button className="pulmo-btn" endIcon={<ArrowForwardIcon />}>
+        Book Appointment
+      </Button>
+    </Box>
+
+    <Box className="pulmo-mobile-image">
+      <img src="/upload/lungs1.png" alt="Pulmonology" />
+    </Box>
+  </Box>
+</Box>
+
+
+
+
+
+
+
+
+
+
 
       {/* ================= About Pulmonology Section ================= */}
       <Box className="pulmo-about-section">

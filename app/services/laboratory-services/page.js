@@ -54,6 +54,11 @@ function LabBanner() {
             Book Appointment
           </Button>
         </Box>
+
+<Box className="lab-mobile-image">
+  <img src="/upload/69.png" alt="Laboratory Services" />
+</Box>
+
       </Box>
     </Box>
   );

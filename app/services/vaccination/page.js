@@ -28,7 +28,7 @@ export default function VaccinationPage() {
             </Typography>
 
             <Typography variant="h1">
-              Vaccination <br /> Services
+              Vaccination  Services
             </Typography>
 
             <Typography className="vacc-hero-text">
@@ -40,6 +40,11 @@ export default function VaccinationPage() {
               Book Appointment <ArrowForwardIcon />
             </Button>
           </Box>
+
+         <Box className="vacc-mobile-image">
+            <img src="/upload/75.png" alt="Vaccination Services" />
+       </Box>
+
         </Box>
       </Box>
 

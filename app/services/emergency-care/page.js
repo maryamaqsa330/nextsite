@@ -29,16 +29,16 @@ const services = [
   { icon: <LocalFireDepartmentOutlinedIcon />, title: "Burns & Wound Care", text: "Comprehensive care for burns and deep wounds." },
 ];
 
-const EmergencyCarePage = () => {
+ const EmergencyCarePage = () => {
   return (
-    <Box className="emergency-page">
+   <Box className="emergency-page">
       {/* Banner */}
       <Box className="emergency-hero">
         <Box className="emergency-container emergency-hero-grid">
           <Box className="emergency-hero-content">
             <Typography className="emergency-breadcrumb">
               <HomeOutlinedIcon /> Home &gt; Services &gt; <span>Emergency Care</span>
-            </Typography>
+             </Typography>
 
             <Typography component="h1" className="emergency-hero-title">
               Emergency Care <br /> When Every Second Counts
@@ -46,23 +46,22 @@ const EmergencyCarePage = () => {
 
             <Typography className="emergency-hero-text">
               Our emergency care services are available 24/7 to provide immediate
-              medical attention when you need it the most. We are always ready
-              to care for you and your loved ones.
-            </Typography>
+            medical attention when you need it the most. We are always ready
+               to care for you and your loved ones.
+           </Typography>
 
-            <Box className="emergency-hero-buttons">
+             <Box className="emergency-hero-buttons">
               <Button className="emergency-primary-btn">Book Appointment →</Button>
               <Button className="emergency-outline-btn">
                 <PhoneOutlinedIcon /> +92 300 1234567
               </Button>
             </Box>
-          </Box>
-
-          <Box className="emergency-hero-image">
-            <img src="/upload/78.png" alt="Emergency Care" />
-          </Box>
+           </Box>
+<Box className="emergency-mobile-image">
+  <img src="/upload/78.png" alt="Emergency Care" />
+</Box>
         </Box>
-      </Box>
+     </Box>
 
       {/* About */}
       <Box className="emergency-about">

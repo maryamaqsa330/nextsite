@@ -30,25 +30,6 @@ export default function AboutPage() {
         /> 
       </Box>
     </Box>
-      {/* ============================== second section ================================== */}
-{/* <Box className="who-section">
-      <Box className="who-content">
-        <Typography className="who-title">Who We Are</Typography>
-
-        <Typography className="who-text">
-          MediCare is a modern healthcare facility committed to providing
-          exceptional medical services with compassion, integrity, and
-          excellence.
-        </Typography>
-
-         <Typography className="who-text">
-          Our team of experienced doctors and healthcare professionals use
-          advanced technology to deliver the best possible care.
-        </Typography> 
-
-        <Button className="who-btn">Learn More</Button>
-      </Box>
-    </Box> */}
      {/* ================================== third section ======================================= */}
  <Box className="mission-section">
       <Box className="mission-container">
@@ -67,7 +48,7 @@ export default function AboutPage() {
             <Typography className="mission-title">Our Mission</Typography>
 
             <Typography className="mission-text">
-              Our mission is to improve the health and well-being of our hjhffhfgh
+              Our mission is to improve the health and well-being of or
               patients by providing high-quality, patient-centered care in a
               safe and comfortable environment.
             </Typography>
@@ -116,48 +97,7 @@ export default function AboutPage() {
     </Box>
   </Box>
 </Box>
-    {/* ================================== fifth section ======================================== */}
-{/* <section className="why-choose-section">
-  <Box className="why-overlay">
-    <Box className="why-container">
-
-      <Box className="why-heading">
-        <Typography className="why-title">Why Choose Us</Typography>
-        <Typography className="why-subtitle">
-          We are committed to provide the best healthcare for you and your family.
-        </Typography>
-      </Box>
-
-      <Box className="why-grid">
-        <Box className="why-card">
-          <div className="why-icon">◎</div>
-          <Typography className="why-number">10+</Typography>
-          <Typography className="why-text">Years of Experience</Typography>
-        </Box>
-
-        <Box className="why-card">
-          <div className="why-icon">⚙</div>
-          <Typography className="why-number">50K+</Typography>
-          <Typography className="why-text">Happy Patients</Typography>
-        </Box>
-
-        <Box className="why-card">
-          <div className="why-icon">♙</div>
-          <Typography className="why-number">200+</Typography>
-          <Typography className="why-text">Expert Doctors</Typography>
-        </Box>
-
-        <Box className="why-card">
-          <div className="why-icon">✿</div>
-          <Typography className="why-number">15+</Typography>
-          <Typography className="why-text">Medical Services</Typography>
-        </Box>
-      </Box>
-
-    </Box>
-  </Box>
-</section>
- */}
+    
    </main>
   );
 }
