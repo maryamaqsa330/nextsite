@@ -76,17 +76,6 @@ const PulmonologyPage = () => {
     </Box>
   </Box>
 </Box>
-
-
-
-
-
-
-
-
-
-
-
       {/* ================= About Pulmonology Section ================= */}
       <Box className="pulmo-about-section">
         <Box className="pulmo-about-container">

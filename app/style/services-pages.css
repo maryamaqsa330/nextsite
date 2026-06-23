@@ -1567,13 +1567,13 @@ width:100%;
 
 /* ================= About Pulmonology Section ================= */
 
-.pulmo-about-section {
+/* .pulmo-about-section {
   width: 100%;
-  padding: 80px; 
+  padding: 50px; 
   background: #ffffff;
 }
 
-.pulmo-about-container {
+.pulmo-about-container{
   width: 100%;
   max-width: 1800px;
   margin: 0 auto;
@@ -1620,18 +1620,18 @@ width:100%;
   line-height: 1.85 !important;
   color: #4d5b73 !important;
   margin-bottom: 26px !important;
-}
+} */
 
 /* ================= Pulmonology Services Section ================= */
 
-.pulmo-services-section {
-  width: 100%;
-  padding: 35px 0 55px;
+/* .pulmo-services-section {
+   width: 100%; 
+   padding: 35px 0 55px; 
   background: #ffffff;
 }
 
 .pulmo-container {
-  padding: 30px 95px ;
+  padding: 30px 82px ;
   width: 100%;
   max-width: 1800px;
   margin: 0 auto;
@@ -1695,11 +1695,11 @@ width:100%;
   font-size: 13px !important;
   color: #4d5b73 !important;
   line-height: 1.8 !important;
-}
+} */
 
 /* ================= Why Choose Us Section ================= */
 
-.pulmo-why-section {
+/* .pulmo-why-section {
   width: 100%;
   padding: 25px 0 55px;
   background: #ffffff;
@@ -1778,11 +1778,11 @@ width:100%;
   line-height: 1.8 !important;
   color: #4d5b73 !important;
   margin-bottom: 24px !important;
-}
+} */
 
 /* ================= Need Help Section ================= */
 
-.pulmo-help-section {
+/* .pulmo-help-section {
   width: 100%;
   padding: 35px 0 70px;
   background: #ffffff;
@@ -1858,11 +1858,11 @@ width:100%;
   color: #ffffff !important;
   font-size: 16px !important;
   font-weight: 500 !important;
-}
+} */
 
 /* ================= Tablet Responsive ================= */
 
-@media (max-width: 991px) {
+ @media (max-width: 991px) {
   .pulmo-banner-container,
   .pulmo-about-container,
   .pulmo-why-container {
@@ -1896,11 +1896,12 @@ width:100%;
   .pulmo-help-right {
     min-width: 100%;
   }
-}
+  
+} 
 
 /* ================= Mobile Responsive ================= */
 
-@media (max-width: 600px) {
+ @media (max-width: 600px) {
   .pulmo-banner-container,
   .pulmo-about-container,
   .pulmo-why-container {
@@ -2005,11 +2006,11 @@ width:100%;
   object-fit: cover;
   object-position: center;
   display: block;
-}
+} 
 
 /* ================= Common Button ================= */
 
-.pulmo-btn {
+ .pulmo-btn {
   background: #0d5bd7 !important;
   color: #ffffff !important;
   border-radius: 40px !important;
@@ -2021,7 +2022,7 @@ width:100%;
 
 .pulmo-btn:hover {
   background: #2f5896 !important;
-}
+} 
 
 /* ================= About Pulmonology Section ================= */
 .pulmo-about-section {
@@ -2038,7 +2039,7 @@ width:100%;
   grid-template-columns: 1fr 1.1fr !important;
   gap: 70px !important;
   align-items: center !important;
-  padding: 0 92px !important;
+  padding: 0 82px !important;
 }
 
 .pulmo-about-image img {
@@ -2091,7 +2092,7 @@ width:100%;
   width: 100%;
   max-width: 1800px;
   margin: 0 auto;
-   padding: 0 92px !important;
+   padding: 0 82px !important;
 }
 
 .pulmo-section-title {
@@ -2170,7 +2171,7 @@ width:100%;
   grid-template-columns: 1.1fr 1.15fr 1fr;
   gap: 34px;
   align-items: center;
-  padding: 0 94px !important;
+  padding: 0 82px !important;
 }
 
 .pulmo-why-point {
@@ -2243,7 +2244,7 @@ width:100%;
 .pulmo-help-section {
   width: 100%;
   background: #ffffff;
-  padding: 50px 94px !important;
+  padding: 50px  82px !important;
 }
 
 .pulmo-help-container {
@@ -2660,6 +2661,7 @@ width:100%;
 
   .pulmo-why-card {
     min-height: 260px !important;
+    padding:20px !important;
   }
 
   .pulmo-help-section {
@@ -2890,7 +2892,7 @@ width:100%;
   max-width: 1800px;
   min-height: 430px;
   margin: 0 auto;
-  padding: 0 95px;
+  padding: 0 82px;
   display: flex;
   align-items: center;
   position: relative;
@@ -2999,6 +3001,9 @@ width:100%;
 }
 
 .neuro-about-container {
+   width: 100%;
+  max-width: 1800px;
+  padding:0 82px;
   display: grid;
   grid-template-columns: 1.1fr 1fr 230px;
   gap: 35px;
@@ -3079,8 +3084,9 @@ width:100%;
 /* About Tablet */
 @media (max-width: 1100px) {
   .neuro-about-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
   }
+  
 
   .neuro-call-card {
     grid-column: 1 / -1;
@@ -3092,10 +3098,12 @@ width:100%;
   .neuro-about-section {
     padding: 35px 0 20px;
   }
+  
 
   .neuro-about-container {
     grid-template-columns: 1fr;
     gap: 24px;
+    padding: 20px;
   }
 
   .neuro-about-image {
@@ -3117,19 +3125,25 @@ width:100%;
   .neuro-about-text {
     font-size: 14px !important;
   }
+ 
 }
 
 /* ================= Services Section ================= */
 
 .neuro-services-section {
-  padding: 25px 0 35px;
   background: #fff;
+  width: 100%;
+ 
+ 
 }
 
 .neuro-services-grid {
+   width: 100%;
+  max-width: 1800px;
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
+  padding: 0 10px;
 }
 
 .neuro-service-card {
@@ -3165,6 +3179,7 @@ width:100%;
   line-height: 1.35 !important;
 }
 
+
 .neuro-service-text {
   color: #26385f;
   font-size: 14px !important;
@@ -3193,27 +3208,31 @@ width:100%;
 /* ================= Why Choose Section ================= */
 
 .neuro-why-section {
+ width:100%;
   padding: 20px 0;
   background: #fff;
 }
 
 .neuro-why-grid {
+   width:100%;
+  max-width:1800px ;
   display: grid;
   grid-template-columns: 1fr 1fr 1.2fr;
   gap: 24px;
+  padding:0 82px ;
 }
 
 .neuro-why-card {
   background: #f4f9ff;
   border-radius: 16px;
-  padding: 28px;
+  padding: 10px 20px;
 }
 
 .neuro-cta-card {
   background: #0d5bd7;
   color: #fff;
   border-radius: 18px;
-  padding: 36px;
+  padding: 33px;
 }
 
 .neuro-cta-card svg {
@@ -3246,7 +3265,7 @@ width:100%;
 /* Why Choose Tablet */
 @media (max-width: 1100px) {
   .neuro-why-grid {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
   }
 
   .neuro-cta-card {
@@ -3258,6 +3277,7 @@ width:100%;
 @media (max-width: 767px) {
   .neuro-why-grid {
     grid-template-columns: 1fr;
+    padding:20px 20px;
   }
 
   .neuro-why-card,
@@ -3277,7 +3297,7 @@ width:100%;
 /* ================= Help Bar Section ================= */
 
 .neuro-help-section {
-  padding: 50px 90px;
+  padding: 50px 82px;
   background: #fff;
 }
 
@@ -3324,13 +3344,14 @@ width:100%;
     padding-top: 38px;
     padding-bottom: 38px;
   }
+
 }
 
 /* Help Bar Mobile */
 @media (max-width: 767px) {
   .neuro-help-section {
-    padding: 25px 0 40px;
-  }
+        padding: 25px 20px 40px;
+    }
 
   .neuro-help-bar {
     grid-template-columns: 1fr;
@@ -3383,7 +3404,7 @@ width:100%;
   width: 100%;
   max-width: 1800px;
   margin: 0 auto;
-  padding-left: 95px;
+  padding-left: 92px;
   padding-right: 95px;
   box-sizing: border-box;
 }
@@ -3613,9 +3634,10 @@ width:100%;
 .lab-banner-container {
   width: 100%;
   max-width: 1800px;
+  padding: 0 82px;
   min-height: 500px;
   margin: 0 auto;
-  padding: 0 95px;
+  
   display: flex;
   align-items: center;
   position: relative;
@@ -3728,6 +3750,9 @@ width:100%;
   grid-template-columns: 1.15fr 1fr 240px;
   gap: 40px;
   align-items: center;
+    width: 100%;
+  max-width: 1800px;
+  padding: 0 82px;
 }
 
 .lab-about-image img {
@@ -3785,9 +3810,9 @@ width:100%;
 /* About Tablet */
 @media (max-width: 1100px) {
   .lab-about-container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
   }
-
+  
   .lab-trust-card {
     grid-column: 1 / -1;
   }
@@ -3827,6 +3852,7 @@ width:100%;
   .lab-about-text {
     max-width: 680px;
   }
+  
 }
 
 /* About Mobile */
@@ -3834,6 +3860,7 @@ width:100%;
   .lab-about-container {
     grid-template-columns: 1fr;
     gap: 24px;
+    padding:0 30px;
   }
 
   .lab-about-image {
@@ -3864,6 +3891,8 @@ width:100%;
     font-size: 14px !important;
     line-height: 1.7 !important;
   }
+  
+  
 }
 
 /* ================= Third Section Services CSS ================= */
@@ -3877,6 +3906,9 @@ width:100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
+   width: 100%;
+  max-width: 1800px;
+  padding: 0 ;
 }
 
 .lab-service-card {
@@ -3941,6 +3973,8 @@ width:100%;
 .lab-why-section {
   padding: 30px 0 25px;
   background: #fff;
+   width: 100%;
+  
 }
 
 .lab-why-grid {
@@ -3948,6 +3982,9 @@ width:100%;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
   align-items: center;
+   width: 100%;
+  max-width: 1800px;
+  padding: 0 82px;
 }
 
 .lab-why-image img {
@@ -3983,8 +4020,9 @@ width:100%;
 /* Why Choose Tablet */
 @media (max-width: 1100px) {
   .lab-why-grid {
-    grid-template-columns: 1fr 1fr;
-  }
+    padding: 0 20px;
+    grid-template-columns: 1fr 1fr ;
+}
 
   .lab-book-card {
     grid-column: 1 / -1;
@@ -4020,7 +4058,7 @@ width:100%;
 /* ================= Last Help Bar CSS ================= */
 
 .lab-help-section {
-  padding: 35px 95px 60px;
+  padding: 35px 82px 60px;
   background: #fff;
 }
 
@@ -4091,7 +4129,7 @@ width:100%;
 /* Help Bar Mobile */
 @media (max-width: 767px) {
   .lab-help-section {
-    padding: 25px 0 40px;
+    padding: 25px 20px 40px;
   }
 
   .lab-help-bar {
@@ -4223,113 +4261,6 @@ width:100%;
 
 /* ================= Banner Section CSS ================= */
 
-/* .radio-banner-section {
-  background:
-    linear-gradient(
-      90deg,
-      rgba(234, 246, 255, 0.98) 0%,
-      rgba(234, 246, 255, 0.9) 42%,
-      rgba(234, 246, 255, 0.35) 70%,
-      rgba(234, 246, 255, 0) 100%
-    ),
-    url("/upload/72.png");
-  background-repeat: no-repeat;
-  background-position: right center;
-  background-size: contain;
-  background-color: #eaf6ff;
-}
-
-.radio-banner-container {
-  min-height: 500px;
-  display: flex;
-  align-items: center;
-}
-
-.radio-banner-content {
-  width: 45%;
-  position: relative;
-  z-index: 2;
-}
-
-.radio-breadcrumb {
-  color: #061b63;
-  font-size: 15px !important;
-  margin-bottom: 28px !important;
-}
-
-.radio-breadcrumb span {
-  color: #0d5bd7;
-}
-
-.radio-banner-title {
-  color: #061b63;
-  font-size: 58px !important;
-  line-height: 1.1 !important;
-  font-weight: 900 !important;
-}
-
-.radio-banner-text {
-  color: #111;
-  font-size: 17px !important;
-  line-height: 1.8 !important;
-  margin: 26px 0 !important;
-} */
-
-/* Banner Tablet */
-/* @media (max-width: 1100px) {
-  .radio-banner-content {
-    width: 55%;
-  }
-
-  .radio-banner-title {
-    font-size: 46px !important;
-  }
-
-  .radio-banner-text {
-    font-size: 15px !important;
-  }
-} */
-
-/* Banner Mobile */
-/* @media (max-width: 767px) {
-  .radio-banner-section {
-    background:
-      linear-gradient(
-        180deg,
-        rgba(234, 246, 255, 0.98) 0%,
-        rgba(234, 246, 255, 0.92) 48%,
-        rgba(234, 246, 255, 0.65) 100%
-      ),
-      url("/upload/72.png");
-    background-position: center bottom;
-    background-size: cover;
-  }
-
-  .radio-banner-container {
-    min-height: 520px;
-    align-items: flex-start;
-    padding-top: 35px;
-  }
-
-  .radio-banner-content {
-    width: 100%;
-  }
-
-  .radio-breadcrumb {
-    font-size: 12px !important;
-  }
-
-  .radio-banner-title {
-    font-size: 36px !important;
-  }
-
-  .radio-banner-text {
-    width: 95%;
-    font-size: 14px !important;
-    line-height: 1.7 !important;
-  }
-} */
-
 .radio-banner-section {
   width: 100%;
   background-color: #eaf6ff;
@@ -4363,9 +4294,9 @@ width:100%;
 .radio-banner-container {
   width: 100%;
   max-width: 1800px;
+   padding: 0 82px;
   min-height: 500px;
   margin: 0 auto;
-  padding: 0 95px;
   display: flex;
   align-items: center;
   position: relative;
@@ -4474,6 +4405,9 @@ width:100%;
   grid-template-columns: 1.15fr 1fr 240px;
   gap: 40px;
   align-items: center;
+   width: 100%;
+  max-width: 1800px;
+   padding: 0 82px;
 }
 
 .radio-about-image img {
@@ -4549,6 +4483,7 @@ width:100%;
   .radio-about-container {
     grid-template-columns: 1fr;
     gap: 28px;
+    padding: 0 20px;
   }
 
   .radio-about-image {
@@ -4599,12 +4534,18 @@ width:100%;
 .radio-services-section {
   padding: 25px 0 35px;
   background: #fff;
+   width: 100%;
+  max-width: 1800px;
+   
 }
 
 .radio-services-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 18px;
+  width: 100%;
+  max-width: 1800px;
+  padding:0 ;
 }
 
 .radio-service-card {
@@ -4613,7 +4554,7 @@ width:100%;
   align-items: flex-start;
   border: 1px solid #d9e8ff;
   border-radius: 15px;
-  padding: 24px;
+  padding: 24px ;
   box-shadow: 0 8px 22px rgba(13, 91, 215, 0.08);
 }
 
@@ -4669,6 +4610,7 @@ width:100%;
 .radio-why-section {
   padding: 30px 0 25px;
   background: #fff;
+  
 }
 
 .radio-why-grid {
@@ -4676,6 +4618,9 @@ width:100%;
   grid-template-columns: 1fr 1fr 1fr;
   gap: 32px;
   align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  padding:0 82px;
 }
 
 .radio-why-image img {
@@ -4724,6 +4669,7 @@ width:100%;
   .radio-why-grid {
     grid-template-columns: 1fr;
     gap: 24px;
+    padding: 0 20px;
   }
 
   .radio-why-content {
@@ -4747,7 +4693,7 @@ width:100%;
 
 /* ================= Last Help Bar CSS ================= */
  .radio-help-section {
-  padding: 35px 92px 60px;
+  padding: 35px 82px 60px;
   background: #fff;
 }
 
@@ -4755,8 +4701,8 @@ width:100%;
   background: #0d5bd7;
   color: #fff;
   border-radius: 18px;
-  padding-top: 45px;
-  padding-bottom: 45px;
+  padding-top: 50px;
+  padding-bottom: 60px;
   display: grid;
   grid-template-columns: 1.3fr 1.2fr;
   gap: 40px;
@@ -4818,7 +4764,7 @@ width:100%;
 /* Help Bar Mobile */
 @media (max-width: 767px) {
   .radio-help-section {
-    padding: 25px 0 40px;
+    padding: 25px 20px 40px;
   }
 
   .radio-help-bar {
@@ -4986,9 +4932,9 @@ width:100%;
 .vacc-hero-inner {
   width: 100%;
   max-width: 1800px;
+  padding: 0 82px;
   min-height: 500px;
   margin: 0 auto;
-  padding: 0 95px;
   display: flex;
   align-items: center;
   position: relative;
@@ -5030,7 +4976,11 @@ width:100%;
   color: #253858 !important;
   margin-bottom: 28px !important;
 }
-
+@media (max-width: 1024px) {
+    .vacc-container {
+        padding: 30px 32px !important;
+    }
+}
 /* tablet/mobile: no background image */
 @media (max-width: 991px) {
   .vacc-hero::after {
@@ -5068,6 +5018,7 @@ width:100%;
   .vacc-hero h1 {
     font-size: 48px !important;
   }
+  
 }
 
 @media (max-width: 600px) {
@@ -5099,6 +5050,9 @@ width:100%;
   grid-template-columns: 1.1fr 1fr 0.48fr;
   gap: 45px;
   align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  padding: 0 82px;
 }
 
 .vacc-about-img img,
@@ -5203,6 +5157,7 @@ width:100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 22px;
+ 
 }
 
 .vacc-service-card {
@@ -5253,6 +5208,9 @@ width:100%;
   grid-template-columns: 1fr 0.9fr 0.85fr;
   gap: 45px;
   align-items: center;
+  width: 100%;
+  max-width: 1800px;
+  padding: 0 82px;
 }
 
 .vacc-book-card {
@@ -5277,18 +5235,25 @@ width:100%;
 /* ================= HELP SECTION ================= */
 
 .vacc-help-section {
-  padding: 0 0 65px;
+  width:100% ;
+  max-width: 1800px;
+  padding: 20px 0;
   background:#FEFEFD !important;
+ 
+
 }
 
 .vacc-help-box {
   background: linear-gradient(90deg, #0758f7, #003dc2);
   border-radius: 16px;
-  padding: 45px 65px;
+padding: 50px;
   color: #fff;
   display: flex;
   justify-content: space-between;
   gap: 40px;
+   width: 100%;
+  max-width: 1800px;
+  
 }
 
 .vacc-help-box h2 {
@@ -5507,105 +5472,6 @@ background-position:center bottom;
   }
 }
 /* ================================= emergency care =============================== */
-/* .emergency-page {
-  width: 100%;
-  overflow-x: hidden;
-  font-family: "Poppins", sans-serif;
-  color: #061b5f;
-}
-
-.emergency-container {
-  width: 100%;
-  max-width: 1800px;
-  margin: 0 auto;
-  padding: 0 95px;
-}
-
-.emergency-hero {
-  background: linear-gradient(90deg, #f4fbff 0%, #edf8ff 45%, #ffffff 100%);
-  padding: 55px 0 60px;
-}
-
-.emergency-hero-grid {
-  display: grid;
-  grid-template-columns: 43% 57%;
-  align-items: center;
-  gap: 30px;
-}
-
-.emergency-breadcrumb {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-  font-size: 15px !important;
-  margin-bottom: 45px !important;
-  color: #1c2c48;
-}
-
-.emergency-breadcrumb svg,
-.emergency-breadcrumb span {
-  color: #0755ee;
-}
-
-.emergency-hero-title {
-  font-size: 58px !important;
-  line-height: 1.15 !important;
-  font-weight: 800 !important;
-  margin-bottom: 25px !important;
-  color: #061b5f;
-}
-
-.emergency-hero-text {
-  max-width: 700px;
-  font-size: 18px !important;
-  line-height: 1.8 !important;
-  color: #1d2b3d;
-  margin-bottom: 30px !important;
-}
-
-.emergency-hero-buttons {
-  display: flex;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.emergency-primary-btn {
-  background: #0755ee !important;
-  color: #fff !important;
-  border-radius: 50px !important;
-  padding: 14px 32px !important;
-  text-transform: none !important;
-  font-weight: 700 !important;
-}
-
-.emergency-primary-btn:hover {
-  background: #2F5896 !important;
-}
-
-.emergency-outline-btn {
-  border: 2px solid #0755ee !important;
-  color: #0755ee !important;
-  border-radius: 50px !important;
-  padding: 12px 28px !important;
-  text-transform: none !important;
-  font-weight: 700 !important;
-  gap: 8px;
-}
-
-.emergency-outline-btn:hover {
-  background: #2F5896 !important;
-  color: #fff !important;
-  border-color: #2F5896 !important;
-}
-
-.emergency-hero-image img {
-  width: 100%;
-  height: 520px;
-  object-fit: contain;
-  object-position: center right;
-  display: block;
-} */
-
 .emergency-hero {
   width: 100%;
   background: #f4fbff;
@@ -5639,9 +5505,10 @@ background-position:center bottom;
 .emergency-hero-grid {
   width: 100%;
   max-width: 1800px;
+  padding: 0 82px;
   min-height: 500px;
   margin: 0 auto;
-  padding: 0 95px;
+  
   display: flex;
   align-items: center;
   position: relative;
@@ -5774,7 +5641,7 @@ background-position:center bottom;
   gap: 45px;
    width: 100%;
   max-width: 1800px;
-  padding: 0 95px;
+  padding: 0 82px;
 }
 
 .emergency-about-img img,
@@ -5870,7 +5737,7 @@ background-position:center bottom;
   background:#FEFEFE !important;
   width: 100%;
   max-width: 1800px;
-  padding: 0 95px;
+  padding: 0 82px;
 }
 
 .emergency-small-heading {
@@ -5938,7 +5805,7 @@ background-position:center bottom;
   align-items: center;
   width: 100%;
   max-width: 1800px;
-  padding: 0 95px;
+  padding: 0 82px;
 }
 
 .emergency-help-card {
@@ -5976,7 +5843,7 @@ background-position:center bottom;
   width: 100%;
   max-width: 1800px;
   margin: 0 auto;
-  padding: 50px 95px;
+  padding: 50px 82px;
   background:#FEFEFE !important;
  
 }
@@ -6053,7 +5920,15 @@ background-position:center bottom;
 
   .emergency-helpline-card {
     max-width: 420px;
+    display: none;
   }
+  .emergency-services {
+    padding: 30px 0 55px;
+    background: #FEFEFE !important;
+    width: 100%;
+    max-width: 1800px;
+    padding: 0 20px;
+}
 }
 
 @media (max-width: 767px) {
@@ -6162,5 +6037,24 @@ background-position:center bottom;
   .emergency-cta-grid {
     padding: 20px !important;
     gap: 16px !important;
+  }
+}
+@media (max-width: 480px) {
+  .emergency-hero-buttons {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr !important;
+    gap: 12px !important;
+    width: 100% !important;
+  }
+
+  .emergency-primary-btn,
+  .emergency-outline-btn {
+    width: 100% !important;
+    min-height: 50px !important;
+    padding: 5px 10px !important;
+    border-radius: 30px !important;
+    font-size: 10px !important;
+    line-height: 1.35 !important;
+    text-align: center !important;
   }
 }

@@ -1,7 +1,9 @@
 
 import Link from "next/link";
 import { Box, Typography } from "@mui/material";
-
+import PhoneOutlinedIcon from "@mui/icons-material/PhoneOutlined";
+import EmailOutlinedIcon from "@mui/icons-material/EmailOutlined";
+import LocationOnOutlinedIcon from "@mui/icons-material/LocationOnOutlined";
 export default function Footer() {
   return (
     <Box
@@ -61,7 +63,8 @@ export default function Footer() {
           </Typography>
 
           <Box sx={{ display: "flex", flexDirection: "column", gap: 1 }}>
-         <Link href="/about" style={{ textDecoration: "none" }}>
+            {/* =============== home ================ */}
+         <Link href="/" style={{ textDecoration: "none" }}>
   <Typography
     sx={{
       color: "#d7e4ff",
@@ -76,7 +79,7 @@ export default function Footer() {
      Home
   </Typography>
 </Link>
-
+   {/* ====================== about ============================= */}
 <Link href="/about" style={{ textDecoration: "none" }}>
   <Typography
     sx={{
@@ -89,11 +92,11 @@ export default function Footer() {
       },
     }}
   >
-     About Us
+     About 
   </Typography>
 </Link>
-
-<Link href="/about" style={{ textDecoration: "none" }}>
+    {/* ========================= contact ============================== */}
+<Link href="/contact" style={{ textDecoration: "none" }}>
   <Typography
     sx={{
       color: "#d7e4ff",
@@ -108,52 +111,233 @@ export default function Footer() {
      Contact
   </Typography>
 </Link>
-
+    {/* ============================ doctor ========================= */}
+<Link href="/doctor" style={{ textDecoration: "none" }}>
+  <Typography
+    sx={{
+      color: "#d7e4ff",
+       transition: "0.3s",
+       cursor: "pointer",
+      "&:hover": {
+        color: "#ffffff",
+      //   pl: "6px",
+      },
+    }}
+  >
+     Doctors
+  </Typography>
+</Link>
+    {/* ======================= why choose us ===================== */}
+<Link href="/why-choose-us" style={{ textDecoration: "none" }}>
+  <Typography
+    sx={{
+      color: "#d7e4ff",
+       transition: "0.3s",
+       cursor: "pointer",
+      "&:hover": {
+        color: "#ffffff",
+      //   pl: "6px",
+      },
+    }}
+  >
+     why choose us
+  </Typography>
+</Link>
+     {/* ==================== contact =========================== */}
+<Link href="/contact" style={{ textDecoration: "none" }}>
+  <Typography
+    sx={{
+      color: "#d7e4ff",
+       transition: "0.3s",
+       cursor: "pointer",
+      "&:hover": {
+        color: "#ffffff",
+      //   pl: "6px",
+      },
+    }}
+  >
+     Contact
+  </Typography>
+</Link>
           </Box>
         </Box>
-
         {/* Services */}
-        <Box>
-          <Typography sx={{ fontWeight: 700, mb: 2 }}>
-            Our Services
-          </Typography>
+<Box
+  sx={{
+    display: "flex",
+    flexDirection: "column",
+    gap: 1,
+  }}
+>
+  <Link href="/services/general-consultation" style={{ textDecoration: "none" }}>
+    <Typography sx={{ color: "#d7e4ff", "&:hover": { color: "#fff" } }}>
+      General Consultation
+    </Typography>
+  </Link>
 
-          <Box
-            sx={{
-              display: "flex",
-              flexDirection: "column",
-              gap: 1,
-              color: "#d7e4ff",
-            }}
-          >
-            <Typography>Cardiology</Typography>
-            <Typography>Neurology</Typography>
-            <Typography>Orthopedics</Typography>
-            <Typography>Pediatrics</Typography>
-            <Typography>Emergency Care</Typography>
-          </Box>
-        </Box>
+  <Link href="/services/radiology" style={{ textDecoration: "none" }}>
+    <Typography sx={{ color: "#d7e4ff", "&:hover": { color: "#fff" } }}>
+      Radiology
+    </Typography>
+  </Link>
 
+  <Link href="/services/cardiology" style={{ textDecoration: "none" }}>
+    <Typography sx={{ color: "#d7e4ff", "&:hover": { color: "#fff" } }}>
+      Cardiology
+    </Typography>
+  </Link>
+
+  <Link href="/services/neurology" style={{ textDecoration: "none" }}>
+    <Typography sx={{ color: "#d7e4ff", "&:hover": { color: "#fff" } }}>
+      Neurology
+    </Typography>
+  </Link>
+
+  <Link href="/services/laboratory-services" style={{ textDecoration: "none" }}>
+    <Typography sx={{ color: "#d7e4ff", "&:hover": { color: "#fff" } }}>
+      Laboratory Service
+    </Typography>
+  </Link>
+
+  <Link href="/services/pulmonology" style={{ textDecoration: "none" }}>
+    <Typography sx={{ color: "#d7e4ff", "&:hover": { color: "#fff" } }}>
+      Pulmonology
+    </Typography>
+  </Link>
+
+  <Link href="/services/vaccination" style={{ textDecoration: "none" }}>
+    <Typography sx={{ color: "#d7e4ff", "&:hover": { color: "#fff" } }}>
+      Vaccination
+    </Typography>
+  </Link>
+
+  <Link href="/services/emergency-care" style={{ textDecoration: "none" }}>
+    <Typography sx={{ color: "#d7e4ff", "&:hover": { color: "#fff" } }}>
+      Emergency Care
+    </Typography>
+  </Link>
+</Box>
         {/* Contact */}
-        <Box>
-          <Typography sx={{ fontWeight: 700, mb: 2,}}>   
   
-            Contact Info
-          </Typography>
+<Box>
+  <Typography sx={{ fontWeight: 700, mb: 2 }}>
+    Contact Info
+  </Typography>
 
-          <Typography sx={{ color: "#d7e4ff", mb: 1.5 }}>
-            📞 +92 316 7415051
-          </Typography>
+  <Link href="tel:+923167415051" style={{ textDecoration: "none" }}>
+    <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, mb: 1.5 }}>
+      <PhoneOutlinedIcon sx={{ color: "#fff", fontSize: 20 }} />
+      <Typography sx={{ color: "#d7e4ff" }}>
+        +92 316 7415051
+      </Typography>
+    </Box>
+  </Link>
 
-          <Typography sx={{ color: "#d7e4ff", mb: 1.5 }}>
-            ✉️ info@medicare.com
-          </Typography>
+  <Link href="mailto:info@medicare.com" style={{ textDecoration: "none" }}>
+    <Box sx={{ display: "flex", alignItems: "center", gap: 1.5, mb: 1.5 }}>
+      <EmailOutlinedIcon sx={{ color: "#fff", fontSize: 20 }} />
+      <Typography sx={{ color: "#d7e4ff" }}>
+        info@medicare.com
+      </Typography>
+    </Box>
+  </Link>
 
-          <Typography sx={{ color: "#d7e4ff", mb: 3 }}>
-            📍 123, Health Street, Islamabad, Pakistan
-          </Typography>
+  <Link
+    href="https://maps.google.com"
+    target="_blank"
+    style={{ textDecoration: "none" }}
+  >
+    <Box sx={{ display: "flex", alignItems: "flex-start", gap: 1.5, mb: 3 }}>
+      <LocationOnOutlinedIcon sx={{ color: "#fff", fontSize: 20, mt: "2px" }} />
+      <Typography sx={{ color: "#d7e4ff" }}>
+        123, Health Street, Islamabad, Pakistan
+      </Typography>
+    </Box>
+  </Link>
 
-          <Box
+  <Box
+    sx={{
+      display: "flex",
+      gap: 1.5,
+      justifyContent: { xs: "center", md: "flex-start" },
+    }}
+  >
+    {["F", "T", "IN", "IG"].map((item) => (
+      <Box
+        key={item}
+        sx={{
+          width: "36px",
+          height: "36px",
+          borderRadius: "50%",
+          background: "#0d5bd7",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: "13px",
+          fontWeight: 700,
+          cursor: "pointer",
+        }}
+      >
+        {item}
+      </Box>
+    ))}
+  </Box>
+</Box> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   <Box
+    sx={{
+      display: "flex",
+      gap: 1.5,
+      justifyContent: { xs: "center", md: "flex-start" },
+    }}
+  >
+    {["F", "T", "IN", "IG"].map((item) => (
+      <Box
+        key={item}
+        sx={{
+          width: "36px",
+          height: "36px",
+          borderRadius: "50%",
+          background: "#0d5bd7",
+          display: "flex",
+          alignItems: "center",
+          justifyContent: "center",
+          fontSize: "13px",
+          fontWeight: 700,
+          cursor: "pointer",
+        }}
+      >
+        {item}
+      </Box>
+    ))}
+  </Box>
+</Box> 
+
+         {/* <Box
             sx={{
               display: "flex",
               gap: 1.5,
@@ -181,7 +365,7 @@ export default function Footer() {
             ))}
           </Box>
         </Box>
-      </Box>
+      </Box> */}
 
       <Box
         sx={{
