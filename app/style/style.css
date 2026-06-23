@@ -415,7 +415,7 @@ body {
 
 .service-card:nth-child(4) .service-title {
   font-size: 34px !important;
-} */
+} 
 
 .medical-services-section {
   width: 100%;
@@ -2023,7 +2023,7 @@ body {
   max-width: 1800px;
   margin: 0 auto;
   min-height: 400px;
-  padding: 80px 81px ;
+  padding: 120px 81px ;
   position: relative;
   overflow: hidden;
   display: flex; 
@@ -2062,8 +2062,6 @@ body {
   padding:60px 0;
   z-index: 3;
 } 
-
-
 .doctor-detail-label {
   color: #2f57c7 !important;
   font-size: 15px !important;
@@ -2071,7 +2069,6 @@ body {
   letter-spacing: 1px !important;
   margin-bottom: 18px !important;
 }
-
 .doctor-detail-title {
   color: #061b63 !important;
   font-size: 52px !important;
@@ -2079,19 +2076,15 @@ body {
   line-height: 1.13 !important;
   margin-bottom: 22px !important;
     }
-
-
 .doctor-detail-text {
   color: #30435f !important;
   font-size: 17px !important;
   line-height: 1.8 !important;
   max-width: 620px;
 }
-
 .doctor-detail-mobile-img {
   display: none;
 }
-
 /* Tablet */
 @media (max-width: 991px) {
   .doctor-detail-banner {
@@ -2101,18 +2094,15 @@ body {
     align-items: flex-start;
     background: linear-gradient(135deg, #eef8ff, #d8efff);
   }
-
   .doctor-detail-banner::before,
   .doctor-detail-banner::after {
     display: none;
   }
-
   .doctor-detail-content {
     width: 100%;
     max-width: 100%;
     text-align: left;
   }
-
   .doctor-detail-title {
     font-size: 42px !important;
     text-align: start;

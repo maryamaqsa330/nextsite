@@ -52,7 +52,7 @@ export default function Home() {
           </Typography>
 
           <Box className="home-banner-buttons">
-            <Button href="/appointment" className="primary-btn">
+            <Button href="/contacty" className="primary-btn">
               Book Appointment
             </Button>
 
@@ -106,7 +106,6 @@ export default function Home() {
 
       </Box>
     </section> 
-
     {/* ========================== third section ========================= */}
 <section className="medical-services-section">
   <Box className="medical-services-container">
